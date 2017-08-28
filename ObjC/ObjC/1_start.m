@@ -11,4 +11,13 @@
 int main()
 {
     printf("test~~~\n");
+    
+    char* str = "Hello,C";
+    printf("%s\n", str);
+    
+    //objC 문자열
+    NSString* str2 = @"HELLO, OBJ C";
+    
+    NSLog(@"%@\n", str2);
+    
 }
